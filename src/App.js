@@ -4,6 +4,8 @@ import Headers from './layout/Headers';
 import Heros from './layout/Heros';
 import { Information } from './layout/Information';
 import Skills from './layout/Skills';
+import Projects from './layout/Projects';
+import Footers from './layout/Footers';
 
 function App() {
   return (
@@ -18,7 +20,11 @@ function App() {
       <Skills />  
       </div>
       <Information />
+      <Projects />
+      <Footers />
+    
       </div>
+     
       
        
   

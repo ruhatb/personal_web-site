@@ -20,7 +20,7 @@ const Headers = () => {
        
        <label className='pr-5 flex items-center' >  
        <input  type="radio" onClick={toogleDarkMode} checked={darkMode} />
-        <div className='cursor-pointer'> {darkMode ? <FaMoon  size={20}  color="gray" /> : <FaSun  size= {20} color="orange"/>} </div>
+        <div className='cursor-pointer pr-10' > {darkMode ? <FaMoon  size={20}  color="gray" /> : <FaSun  size= {20} color="orange"/>} </div>
         </label>
         </nav>
         
