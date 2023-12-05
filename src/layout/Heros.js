@@ -1,6 +1,5 @@
-import Headers from "./Headers";
 
-const Hero = () => {
+const Heros = () => {
     return  (
 
         
@@ -15,4 +14,4 @@ const Hero = () => {
     );
 };
 
-export default Hero; 
+export default Heros; 

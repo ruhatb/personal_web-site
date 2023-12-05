@@ -1,16 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Headers from './layout/Headers'; 
-import Footer from './layout/Footer';
-import Hero from './layout/Hero';
+import Heros from './layout/Heros';
+import { Information } from './layout/Information';
+import Skills from './layout/Skills';
 
 function App() {
   return (
-   <div>
+    <div> 
+        
+    <div> 
       <Headers />
-       <Hero />
-       <Footer />
+     <Heros />
       </div>
+      
+       <div className='bg-gray-400  w-[1440px] flex flex-col items-center  '>   
+      <Skills />  
+      </div>
+      <Information />
+      </div>
+      
        
   
   );
